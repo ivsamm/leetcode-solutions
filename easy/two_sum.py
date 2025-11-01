@@ -14,6 +14,7 @@ class Solution:
                 index_map[n] = i
         return result
 
+
 if __name__ == '__main__':
     s = Solution()
     print(s.twoSum([2, 7, 8, 11], 9))
